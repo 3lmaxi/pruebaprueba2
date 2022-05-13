@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&display=swap');
+
+
+*{
+    font-family: 'Raleway', sans-serif;
+    padding: 0%;
+    margin: 0;
+
+}
+
+#encabezado{
+    background-color: lightblue;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 40px 0 40px;
+}
+#logo>h1{
+    color: black;
+    display: flex;
+    align-items: baseline;
+    font-family: 'Send Flowers', cursive;
+
+}
+#logo{
+    display: flex;
+    align-items: center;
+   
+}
+#usuario{
+    display: flex;
+    position: relative;
+    left: 440px;
+}
+#redes{
+    display: flex;
+    justify-content: center;
+    background-color: thistle;
+    height: 20%;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+
+
+
+#bienvenida{
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    background-color: burlywood;
+}
+
+#final{
+    height: 50vh; 
+    width: 100%;
+    background-color: dimgray;
+    text-decoration: none;
+    color: black;
+
+}
+
+
+#contenido{
+    background-color: burlywood;
+    height: 100vh;
+    
+
+
+
+}
+#logofinal>p{
+    display: flex;
+
+    
+}
+
+#compra{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    bottom: 40%;
+
+
+
+
+}
+.finaal>a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.escribenos{
+    display: flex;
+    align-items: center;
+    
+}
+#compra>h1{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.finaal{
+    transition-duration: 0.5s;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;  
+    text-decoration: none;
+    color: black;
+    position: relative;
+    bottom: 20%;
+
+}
+.finaal> a:hover{
+    color: gold;
+    transition-duration: 0.5s;
+    text-decoration: none;
+
+}
+
+.finaal>h1{
+    font-family: 'Hurricane', cursive;
+    font-size: 1.9rem;
+}
+
+#reedes{
+    display: flex;
+    justify-content: flex-end;
+    width: -20%;
+    
+    position: relative;
+    bottom: 40%;
+
+}
+
+.redsociales>h1{
+    font-family: 'Hurricane', cursive;
+    font-size: 1.9rem;
+
+}
+
+.redsociales>a{
+    display: flex;
+    justify-content: center;
+
+}
+
+#logofinal{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+
+
+
+
+#final>h5{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+    font-family: 'Send Flowers', cursive;
+    
+}
+
+#seccion2{
+    height: 130%;
+    background-color: burlywood;
+
+}
+
+#seccion2>h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Send Flowers', cursive;
+}
+
+#cartas{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+@media (max-width: 900px){
+    #usuario{
+        position: relative;
+        left: 110px;
+
+
+    }
+    #final{
+        position: relative;
+        bottom: 280px;
+    }
+    .finaal > h1{
+        font-size: 1.5rem;
+        position: relative;
+        left: 10px;
+        bottom: -15px;
+        width: 200px;
+
+    }
+    .finaal > a{
+        font-size: 1rem;
+        position: relative;
+        left: 10px;
+        bottom: -15px;
+        width: 200px;
+
+
+
+    }
+    
+    #logofinal{
+        position: relative;
+        left: 230px;
+        bottom: -200px;
+        width: 80px;
+        
+
+    }
+    #final>h5{
+        display: none;
+        
+      
+    }
+    .redsociales>h1{
+        position: relative;
+        font-size: 1.5rem;
+        bottom: 10px;
+
+
+    }
+    .redsociales>a{  
+        position: relative;       
+        bottom: 0px;
+    
+        
+    }
+
+}
+
+
+    
+
